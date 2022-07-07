@@ -13,6 +13,8 @@ for Folder in Folders:
 
 	old_txt_file = "md5sum.diff.txt"
 	new_txt_file = "md5sum.diff." + str(count) + ".txt"
+	
+	count += 1
 
 	old_pdf_path = os.path.join(target_path, old_pdf_file)
 	new_pdf_path =  os.path.join(target_path, new_pdf_file)
